@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoDefender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #808080; /* Grey background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Rubik', sans-serif;
+            color: white; /* Text color */
+            text-align: center;
+        }
+
+        .button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            transform: translateZ(0); /* 3D effect */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        iframe {
+            margin-top: 20px;
+            width: 560px;
+            height: 315px;
+            border: none;
+        }
+    </style>
+    <!-- <script>
+        function downloadAndRedirect() {
+            // Start download
+            window.location.href = 'extension.zip';
+            // Redirect after a delay (adjust the timeout as needed)
+            setTimeout(function() {
+                window.location.href = '/installation';
+            }, 2000); // 2 seconds delay before redirecting
+        }
+    </script> -->
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-weight: 800;">RODEFENDER</h1>
+        <a href="extension.zip" class="button" download="extension.zip">DOWNLOAD</a>
+        <h2 style="font-weight: 800; margin-top: 30px;">TUTORIAL</h2>
+        <iframe src="https://www.youtube.com/embed/PSqcV5eT8FM" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
